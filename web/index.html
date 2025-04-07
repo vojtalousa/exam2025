@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Top Garden</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css"/>
+</head>
+<body>
+<nav id="navbar">
+    <p class="logo">Top Garden</p>
+    <div class="nav-links">
+        <a href="/">Domů</a>
+        <a href="/o-nas">O nás</a>
+        <a href="#contact">Kontakt</a>
+    </div>
+</nav>
+<main>
+    <h1 class="main-title">Vítejte ve společnosti Top Garden</h1>
+</main>
+<section class="services">
+    <h2 class="services-title">Služby</h2>
+    <div class="card-container">
+        <div class="card">
+            <img class="icon" src="images/icon1.png" alt="Lorem ipsum">
+            <h3>Lorem Ipsum</h3>
+            <p class="card-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et orci leo.
+                Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            </p>
+        </div>
+        <div class="card">
+            <img class="icon" src="images/icon2.png" alt="Lorem ipsum">
+            <h3>Lorem Ipsum</h3>
+            <p class="card-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et orci leo.
+                Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            </p>
+        </div>
+        <div class="card">
+            <img class="icon" src="images/icon3.png" alt="Lorem ipsum">
+            <h3>Lorem Ipsum</h3>
+            <p class="card-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et orci leo.
+                Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            </p>
+        </div>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <h2>Kontakt</h2>
+    <form class="contact-form">
+        <div class="contact-top">
+            <div class="input-container">
+                <label for="i-name">Jméno</label>
+                <input required type="text" name="name" placeholder="Radek Jícha" id="i-name" autocomplete="name"/>
+            </div>
+            <div class="input-container">
+                <label for="i-email">Email</label>
+                <input required type="email" name="email" placeholder="jicha@dgkralupy.eu" id="i-email" autocomplete="email"/>
+            </div>
+        </div>
+        <div class="i-message-container">
+            <label for="i-message">Zpráva</label>
+            <textarea required name="message" placeholder="Lorem Ipsum..." id="i-message"></textarea>
+        </div>
+        <button class="contact-submit">Odeslat</button>
+    </form>
+</section>
+<footer>
+    <p>©Top Garden 2025</p>
+    <a href="#">Nahoru</a>
+</footer>
+</body>
+</html>
